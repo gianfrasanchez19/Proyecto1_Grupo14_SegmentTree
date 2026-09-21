@@ -1,0 +1,13 @@
+> build/tests.exe
+OK: 30589 comprobaciones superadas
+> build/tests_ubsan.exe
+OK: 30589 comprobaciones superadas
+> build/demo_trace.exe (sin argumentos: sin traza)
+sum(1,4) = 13
+assign(2, 6)
+sum(1,4) = 14
+sum(2,2) = 6
+sum(0,5) = 23
+sum(4,1) -> rango invalido: l > r ([4, 1])
+sum(0,6) -> rango fuera de limites: [0, 6] con n = 6
+vacio.sum(0,0) -> consulta sobre estructura vacia

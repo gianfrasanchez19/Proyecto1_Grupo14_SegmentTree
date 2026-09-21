@@ -1,0 +1,7 @@
+# Dependencias de Python (animacion, video e informe). C++ solo necesita un compilador C++17.
+Pillow
+numpy
+imageio-ffmpeg
+reportlab
+# Solo si no tienes g++/clang++ (p. ej. Windows): trae `zig c++`, usado por scripts/build.py
+ziglang
